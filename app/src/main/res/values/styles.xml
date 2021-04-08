@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Daftapp" parent="Theme.MaterialComponents.NoActionBar" />
+
+    <style name="Widget.Daftapp.TimeTextView">
+        <item name="android:textAppearance">?textAppearanceHeadline6</item>
+        <item name="android:textColor">?colorOnSecondary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Daftapp" parent="TextAppearance.AppCompat" />
+
+    <style name="TextAppearance.Daftapp.Headline6">
+        <item name="android:textSize">86sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
