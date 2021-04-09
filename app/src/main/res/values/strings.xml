@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Daftapp</string>
+    <string name="app_name">Timer</string>
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
 </resources>

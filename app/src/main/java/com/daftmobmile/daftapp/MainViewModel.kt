@@ -1,13 +1,13 @@
 package com.daftmobmile.daftapp
 
-import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.daftmobmile.daftapp.util.EmptyLiveData
 
 class MainViewModel : ViewModel() {
 
-    val timeLabel: LiveData<String> = EmptyLiveData()
-    val actionLabel: LiveData<String> = EmptyLiveData()
+    private val emptyTimeLabel = "_"
+    val timeLabel: MutableLiveData<String> = MutableLiveData(emptyTimeLabel)
+    val buttonLabel: MutableLiveData<Int> = MutableLiveData(R.string.start_button)
 
     fun onButtonClicked() = Unit
 }
