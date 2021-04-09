@@ -7,7 +7,7 @@ class MainViewModel : ViewModel() {
 
     private val emptyTimeLabel = "_"
     val timeLabel: MutableLiveData<String> = MutableLiveData(emptyTimeLabel)
-    val buttonLabel: MutableLiveData<Int> = MutableLiveData(R.string.start_button)
+    val buttonLabel: MutableLiveData<Int> = MutableLiveData(R.string.start_button)  // R.string.stop_button
 
     fun onButtonClicked() = Unit
 }
